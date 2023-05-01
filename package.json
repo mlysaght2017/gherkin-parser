@@ -1,0 +1,22 @@
+{
+  "name": "gherkin-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bindings/node",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlysaght2017/gherkin-parser.git"
+  },
+  "keywords": [],
+  "author": "Michael Lysaght",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlysaght2017/gherkin-parser/issues"
+  },
+  "homepage": "https://github.com/mlysaght2017/gherkin-parser#readme",
+  "devDependencies": {
+    "nan": "^2.17.0",
+    "tree-sitter-cli": "^0.20.8"
+  }
+}

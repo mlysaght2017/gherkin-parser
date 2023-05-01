@@ -1,0 +1,6 @@
+GIVEN the s3 service
+WHEN the CreateBucket API is called
+WHEN the DeleteBucket API is called &%
+AND the logging service is turned off
+AND the logging service is turned off again
+THEN alert security
