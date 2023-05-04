@@ -1,5 +1,7 @@
+Feature: Example Feature
+Scenario: Example Scenario
 GIVEN the "SERVICE" service
-WHEN a principal makes the following API calls:
+WHEN the following API calls are made:
 | Api1 |
 | Api2 |
 THEN alert
