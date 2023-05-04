@@ -1,0 +1,5 @@
+GIVEN the "SERVICE" service
+WHEN a principal makes the following API calls:
+| Api1 |
+| Api2 |
+THEN alert
