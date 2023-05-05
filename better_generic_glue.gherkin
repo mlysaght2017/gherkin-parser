@@ -1,7 +1,1 @@
-Feature: Example Feature
-Scenario: Example Scenario
-GIVEN the "SERVICE" service
-WHEN the following API calls are made:
-| Api1 |
-| Api2 |
-THEN alert
+GIVEN S3the
