@@ -15,7 +15,7 @@ module.exports = grammar({
 
     // expected: ($) ...
 
-    known_identities: [ // aws managed identies ]
+    // known_identities: [ // aws managed identies ]
 
     s3_api_calls: $ => choice(
       'CreateBucket',
@@ -24,7 +24,7 @@ module.exports = grammar({
       // ....
     ),
     // ec2_api_calls
-    api_calls: $ => choice($.s3_api_calls, $.ec2_calls, ...)
+    api_calls: $ => choice($.s3_api_calls, $.ec2_calls),
 
     and: ($) => "AND",
     but: ($) => "BUT",
@@ -47,7 +47,7 @@ module.exports = grammar({
     multiple_given_statements: ($) => seq($.given_statement),
 
     word: ($) => /\w+/,
-    // service_name: $ => choice(...awsServiceRegexList),
+
     service_name: ($) =>
       choice(
         choice("S3", "s3"),
