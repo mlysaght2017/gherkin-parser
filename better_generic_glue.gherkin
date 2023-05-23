@@ -1,4 +1,1 @@
-GIVEN the s3 service
-GIVEN random string
-AND Lambda service
-BUT DynamoDB
+S3
