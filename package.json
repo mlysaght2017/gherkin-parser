@@ -20,6 +20,9 @@
     "tree-sitter-cli": "^0.20.8"
   },
   "dependencies": {
+    "csv-parse": "^5.3.10",
+    "csv-parser": "^3.0.0",
+    "fast-csv": "^4.3.6",
     "web-tree-sitter": "^0.20.8"
   }
 }
