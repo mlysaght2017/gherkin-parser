@@ -1,0 +1,13 @@
+{
+	"configurations": [
+		{
+			"name": "Parser Grammar",
+			"request": "launch",
+			"runtimeArgs": ["tree-sitter", "generate"],
+			"runtimeExecutable": "npx",
+			"skipFiles": ["<node_internals>/**"],
+			"cwd": "${workspaceFolder}",
+			"type": "node"
+		},
+    ]
+}

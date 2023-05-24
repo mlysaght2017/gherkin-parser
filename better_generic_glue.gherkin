@@ -1,0 +1,4 @@
+GIVEN the s3 service
+WHEN PutPublicAccessBlock is called
+AND principal is not VaultIACReadWrite 
+THEN alert security 
