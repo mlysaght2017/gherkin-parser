@@ -1,16 +1,30 @@
-const services = require("./services");
+const services = require('./services');
 
+debugger;
 module.exports = grammar({
   name: 'gherkin',
 
   rules: {
-    // Other grammar rules...
+    awsServiceName: $ => choice(...Object.values(services)),
 
-    awsServiceName: $ => seq(
-      choice(...services.awsServiceName)
-    ),
+    // Other grammar rules...
   },
 });
+
+
+// const services = require("./services");
+
+// module.exports = grammar({
+//   name: 'gherkin',
+
+//   rules: {
+//     // Other grammar rules...
+
+//     awsServiceName: $ => seq(
+//       choice(...services.serviceName)
+//     ),
+//   },
+// });
 
 
 
