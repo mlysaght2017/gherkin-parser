@@ -1,4 +1,0 @@
-GIVEN service
-WHEN principal requests Api1 or Api2
-WHEN request is successful 
-THEN alert

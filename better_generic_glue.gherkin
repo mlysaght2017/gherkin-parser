@@ -1,4 +1,3 @@
 GIVEN the s3 service
-WHEN PutPublicAccessBlock is called
-AND principal is not VaultIACReadWrite 
-THEN alert security 
+WHEN the s3:PutPublicAccessBlock and s3:AbortMultipartUpload API is called
+THEN alert security
